@@ -1,0 +1,56 @@
+/*
+Theme Name: Dzargon
+Theme URI: https://wordpress.org/themes/twentytwentythree
+Author: the WordPress team - Redesign by MRFDN
+Author URI: https://wordpress.org
+Description: This theme based on Twenty Twenty-Three. Designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
+Requires at least: 6.1
+Tested up to: 6.1
+Requires PHP: 5.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: twentytwentythree
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, accessibility-ready, blog, portfolio, news
+*/
+
+.bg-red {
+    background: red;
+}
+
+
+h2.line-clamp a {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 4 !important ;
+  -webkit-box-orient: vertical !important;  
+  overflow: hidden !important;
+}
+.inline-tag {
+	display: inline-block;
+	padding: 0.2em .6em;
+}
+
+.sticky-right {
+	position: sticky;
+	top: 3em;
+}
+
+div.thecontent > h1 {
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+
+div.thecontent > h2 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+div.thecontent > h3  {
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+div.thecontent > h4 {
+	font-size: 1.6rem;
+	font-weight: bold;
+}
