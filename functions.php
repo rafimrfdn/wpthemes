@@ -1,15 +1,4 @@
 <?php
-/**
- * Outputs related posts with thumbnail.
- * This function is based on https://netmospherics.com/blog/wordpress-related-posts-without-plugin/
- * Require this file inside theme functions.php // require_once 'inc/helpers/single-related-posts.php';
- * To Be used inside single post before end of while loop // showRelatedPosts('post', get_the_ID(), 4, 'tags');
- * @param  string $postType
- * @param  integer $postID
- * @param  integer $totalPosts Number of related posts to display
- * @param  string $relatedBy Specify posts related by 'tags' || 'category'
- * @author Waseem Mansour <waseem.mn2002@gmail.com>
- */
 
 
 // activate style style.css file
