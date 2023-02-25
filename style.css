@@ -54,3 +54,15 @@ div.thecontent > h4 {
 	font-size: 1.6rem;
 	font-weight: bold;
 }
+
+.post-page-numbers {
+	padding: 6px 15px !important;
+	background: #ddd !important;
+	color: #000 !important;
+	text-decoration: none;
+}
+
+.post-page-numbers.current {
+	background: #005da4 !important;
+	color: #fff !important;
+}
